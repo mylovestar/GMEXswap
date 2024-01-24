@@ -10,6 +10,10 @@ import {
   DiscordIcon,
   MediumIcon,
   YoutubeIcon,
+  FacebookIcon,
+  Official,
+  SmartContractIcon,
+  ChartIcon
 } from "../Svg";
 
 export const footerLinks: FooterLinkType[] = [
@@ -90,43 +94,43 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "",
+    href: "https://twitter.com/gamecoingmex",
   },
   {
     label: "Telegram",
     icon: TelegramIcon,
-    href: ""
+    href: "https://t.me/TheGameCoin_GME_CHAT"
   },
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "",
+    href: "https://instagram.com/gamecoingmex?utm_medium=copy_link",
   },
-  // {
-  //   label: "Github",
-  //   icon: GithubIcon,
-  //   href: "/",
-  // },
-  // {
-  //   label: "Docs",
-  //   icon: ResourcesIcon,
-  //   href: "/",
-  // },
-  // {
-  //   label: "Discord",
-  //   icon: DiscordIcon,
-  //   href: "https://discord.gg/zgeBH5ewH7",
-  // },
-  // {
-  //   label: "Medium",
-  //   icon: MediumIcon,
-  //   href: "https://kronobitnetworks.medium.com",
-  // },
-  // {
-  //   label: "Youtube",
-  //   icon: YoutubeIcon,
-  //   href: "https://www.youtube.com/@kronobit_networks",
-  // },
+  {
+    label: "Official",
+    icon: Official,
+    href: "https://www.thegamecoin.net",
+  },
+  {
+    label: "Facebook",
+    icon: FacebookIcon,
+    href: "https://www.facebook.com/GameCoinGMEX",
+  },
+  {
+    label: "Discord",
+    icon: DiscordIcon,
+    href: "https://discord.gg/VjbE3Pc3",
+  },
+  {
+    label: "Chart",
+    icon: ChartIcon,
+    href: "https://poocoin.app/tokens/0xE9d78BF51ae04c7E1263A76ED89a65537B9cA903",
+  },
+  {
+    label: "Contract",
+    icon: SmartContractIcon,
+    href: "https://bscscan.com/token/0xE9d78BF51ae04c7E1263A76ED89a65537B9cA903",
+  },
 ];
 
 export const langs: Language[] = [...Array(20)].map((_, i) => ({
